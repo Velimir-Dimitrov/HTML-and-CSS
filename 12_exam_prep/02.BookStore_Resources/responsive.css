@@ -1,0 +1,67 @@
+@media screen and (width <= 600px ) {
+    .navbar-link {
+        display: none;
+    }
+
+    .home-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 1em;
+    }
+
+    body > div > div > div.home-main > div.section-container.column > div > div.home-cards-container .category-card-category-card{
+        flex: 1 0 45%
+    }
+
+    body > div > div > div.home-main > div.section-container.column > div > div.home-cards-container .category-card-category-card img {
+        width: 42vw;
+        height: 40vh;
+    }
+
+    body > div > div > div.home-navbar{
+        position: absolute;
+    }
+
+    body > div > div > div.home-main > div.home-full-width-banner.section-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    body > div > div > div.home-main > div.home-full-width-banner.section-container > img {
+        width: 100%;
+    }
+
+    body > div > div > div.home-main > div.home-full-width-banner.section-container > div > div.home-content > span.home-text30 {
+        width: 100%
+    }
+
+    body > div > div > div.home-main > div.home-full-width-banner.section-container > div > div.home-btn.button {
+        margin-bottom: 2em;
+
+    }
+    body > div > div > div.home-main > div.home-full-width-banner.section-container > div > div.home-content {
+        padding: 1.5em;
+    }
+
+    body > div > div > div.home-main > div:nth-child(4) > div > div.home-container08 {
+        justify-content: flex-start;
+    }
+
+    .home-container08 div img {
+        width: 90vw;
+    }
+
+    body > div > div > div.home-main{
+        padding-bottom: 3em;
+    }
+    body > div > div > div.home-footer > div > footer {
+        flex-direction: column-reverse;
+        padding-top: 3em;
+        padding-bottom: 1em;
+    }
+
+    body > div > div > div.home-footer > div > footer > div.home-links-container {
+        flex-direction: column;
+    }
+}

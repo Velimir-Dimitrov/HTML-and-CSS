@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+
+}
+
+body {
+    padding: 1em;
+    margin: 1em;
+}
+
+img {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    padding: 1em 0;
+}
+
+article, aside {
+    display: inline-block;
+    width: 800px;
+    margin-bottom: 2em;
+}
+
+header {
+    padding-bottom: 1em;
+}
+
+aside {
+    width: 200px;
+    margin-left: 2em;
+    position: absolute;
+}
+
+footer {
+    line-height: 2em;
+}

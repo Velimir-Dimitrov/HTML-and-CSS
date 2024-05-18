@@ -1,0 +1,59 @@
+@media screen and (width <= 600px ) {
+    header nav ul li {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 0.5em;
+        font-size: 0.8em;
+    }
+
+    .header-title {
+        padding: 2em;
+    }
+    header nav {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+    }
+
+    body > main > section.choose-us > ul li{
+        margin-bottom: 2em;
+    }
+
+    .team-description ul {
+        gap: 2em;
+        justify-content: center;
+    }
+
+    .team-description ul li img {
+        width: 6em;
+        height: auto;
+    }
+
+    .choose-us li img {
+        width: 6em;
+        height: auto;
+    }
+
+    body > main > section.team-description > div > ul > li > p {
+        font-size: 0.8em;
+    }
+
+    .header-title h1 {
+        font-size: 2em;
+    }
+    .header-title p {
+        font-size: 1em;
+    }
+
+    .team-description-wrapper, .about-us {
+        width: 80%;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 80%;
+    }
+}

@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 1em/2 Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238) ;
+    margin: 2em;
+    width: 800px;
+}
+
+body > header * {
+    display: inline-block;
+}
+
+body > header {
+    border-bottom: 0.2em solid black;
+    margin-bottom: 1em;
+}
+
+body > header p {
+    font-size: 1.5em;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+
+}
+
+header nav {
+    float: right;
+    line-height: 1em;
+    word-spacing: 1em;
+
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 600px;
+    
+}
+
+h1, h2,h3,h4,h5 {
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+
+p {
+
+    margin-bottom: 1em;
+}
+
+aside ul {
+    margin: 0em 2em 2em;
+}
+
+aside ul li {
+    margin-left: 2em;
+
+}
+
+a {   
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+    font-size: 0.8em;
+}
+
+blockquote {
+    color: gray;
+    font-style: italic;
+    border-left: 0.2em solid gray;
+    float: right;
+    vertical-align: middle;
+    line-height: 1em;
+    padding: 0em 0 1em 1em;
+    margin-left: 1em;
+    width: 250px;
+}
+
+blockquote footer {
+    text-align: end;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 100%;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 0.5em 0.2em 0.5em 0.2em rgba(0, 0, 0, 0.25);
+    border: 0.2em solid black;
+    padding: 0.2em;
+
+}
+
+img {
+    vertical-align: top;
+}
+
+img.right {
+    float: right;
+    margin: 0em 0em 1em 1em;
+}
+
+img.left {
+    float: left;
+    margin: 0em 1em 1em 0em;
+}

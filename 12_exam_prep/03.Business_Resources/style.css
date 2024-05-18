@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: "PT Serif", serif;
+}
+
+p, li {
+    font-family: "PT Sans", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    width: 1440px;
+}
+header {
+    background-image: url(images/background.jpg);
+    background-size:cover;
+    color: white;
+    height: 700px;
+    position: relative;
+}
+header media {
+    display: block;
+    width: 10em;
+    padding: 2em;
+}
+header div {
+    padding: 1em;
+    margin-left: 8em;
+    height: 25vh;
+}
+
+header ul {
+    position: absolute;
+    list-style: none;
+    text-align: end;
+    top: 3em; right: 1em;
+}
+
+header ul li {
+    display: inline;
+    padding: 1em;
+}
+
+header div h1 {
+    width: 26vw;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+header div p {
+    width: 36vw;
+}
+
+main section media {
+    display: block;
+    width: 10em;
+    padding: 2em;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main article {
+    flex: 1 0 40%;
+    padding: 2em;
+    margin: 1em;
+}
+
+button {
+    border: 0.1em solid #b0825c;
+    margin-top: 2em;
+    padding: 0.6em;
+}
+main section {
+    border-top: 0.1em solid gray;
+    flex-basis: 100%;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section media {
+    display: flex;
+    justify-content: center;
+}
+
+main section media img {
+    border-radius: 10em;
+    background-color: #dddddd;
+    border: 1em solid #dddddd;
+    margin: 2em;
+}
+main section h3 {
+    color: #b0825c;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-bottom: 0.8em;
+}
+
+footer {
+    background-color: black;
+    color: rgb(158, 158, 158);
+    display: flex;
+    flex-direction: column;
+}
+
+footer section {
+    display: flex;
+    margin: 0 auto;
+    padding: 4em;
+    gap: 4em;
+}
+footer section ul {
+    flex: 1 1 20%;
+    list-style: none;
+    
+}
+
+footer section ul p {
+    color: white;
+}
+
+footer section ul li {
+    padding: 0.4em 0em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+
+footer div p {
+    flex: 1 1 100%;
+    border-top: 0.1em solid gray;
+    padding: 1em 0 0 18em;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}

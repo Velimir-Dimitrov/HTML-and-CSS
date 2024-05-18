@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site Layout</title>
+    <style>
+                
+            header * {
+            display: inline-block;
+        }
+
+        @media (max-width: 500px) {
+            body { 
+                flex-direction: column;
+            }
+
+            header *{
+                display: block;
+                
+            }
+            nav a {
+                padding-left: 5px;
+                background-color: gray;
+            }
+
+            nav ul {
+                margin-left: 0;
+                padding-left: 0;
+            }
+
+        }
+
+        header, aside, section, footer {
+            margin: 0.2em;
+            padding: 1em;
+            border-radius: 0.5em;
+            background-color: hwb(208 67% 5%);
+            font-size: 2em;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1em;
+
+        }
+
+
+        header {
+            flex-basis: 100%;
+        }
+
+        section {
+            flex: 1 0 80%;
+    
+        }
+
+        aside {
+            flex: 1 0 auto;
+        }
+        footer {
+            flex-basis: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        aside ul, nav ul {
+            list-style: none;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">Create</a></li>
+        </ul>
+    </aside>
+    <section>
+        <h3>Task: 6</h3>
+        <ul>
+            <li>Open: 3</li>
+            <li>In progress: 1</li>
+            <li>Done: 2</li>
+        </ul>
+    </section>
+    <footer>
+        <p> &#169; 2021 - Task Board</p>
+    </footer>
+</body>
+</html>

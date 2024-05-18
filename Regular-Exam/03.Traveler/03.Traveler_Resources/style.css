@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/2 Karla, sans-serif;
+}
+
+h1, h3 {
+    font: 90px "Cormorant Infant", serif;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    max-width: 1960px;
+}
+header {
+    min-height: 870px;
+    height: auto;
+    background-image: url(images/poster.jpg);
+    background-size:cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 3em;
+
+}
+
+header nav{
+    padding-top: 2.4em;
+}
+
+header media {
+    padding-top: 1.5em;
+}
+
+body > header > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none outside;
+    justify-content: space-between;
+    padding-right: 3em;
+
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header media a,
+footer media a {
+    display: block;
+    width: 110px;
+    height: 65px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url(images/logo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header div {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+
+main{
+    text-align: center;
+}
+
+
+section {
+    background-color: #e14747;
+    color: white;
+}
+
+section * {
+    padding: 1em;
+}
+
+body > main > section:nth-child(2) > h4 {
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+body > main > section:nth-child(2) > p {
+    padding-bottom: 2em;
+
+}
+
+article img {
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto;
+}
+
+main article{
+    padding-bottom: 2em;
+    background-color: #f8f0e9;
+}
+
+
+
+body > main > article:nth-child(3) > h3 {
+    padding: 1em;
+}
+
+body > main > article:nth-child(3) > p {
+    padding: 2em;
+}
+
+footer {
+    background-color: #352b2a;  
+    color: gray;
+    padding: 3em 6em;
+}
+
+
+footer p:nth-child(even) {
+    color: white;
+    padding: 2em 0em;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+}
+
+section .button {
+    background-color: #fad87a;
+    border: 0.1em solid black;
+    border-radius: 4em;
+    padding: 0.7em 1.2em;
+}
+
+article .button {
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 0.3em;
+    padding: 0.5em 0.7em;
+}
+
+h1.all {
+    background-color: blue;
+}

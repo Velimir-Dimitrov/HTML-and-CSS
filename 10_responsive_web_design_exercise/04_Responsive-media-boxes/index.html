@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Media Boxes</title>
+    <style>
+        @media screen and (min-width: 460px) {
+            body {
+                justify-content:left
+            }
+
+        }
+        body {
+            background-color: rgb(238, 238, 238) ;
+            display: flex;
+
+        }
+
+        section {
+            margin: 2em;
+            background-color: rgb(255, 255, 255) ;
+            box-shadow: 1em 1em 4em gray;
+            border-radius: 0.5em;
+            overflow: hidden;
+            width: 450px;
+            position: relative;
+            
+        }
+
+        button {
+            background-color: rgb(0, 153, 0) ;
+            color: white;
+            padding: 0.3em 1em;
+            border-radius: 0.2em;
+            position: absolute;
+            bottom: 0; right: 0;
+            margin: 1em;
+            border: none;
+        }
+
+        h3 {
+            font: 1em/1.2 Georgia, serif;
+            padding: 0 1em
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding-bottom: 1em;
+        }
+
+        div p {
+            padding-bottom: 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <media>
+            <img src="https://images.unsplash.com/photo-1538230942844-e89414a0692d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34dcc54db235ce71b59c1d5ada02bdc4&auto=format&fit=crop&w=400&q=80">
+            </media>
+        </div>
+        <div>
+            <h3>Card Title<h3>
+
+            <p>Short description of what this is all about - crafted to make people interested</p>
+            
+            <button>See more</button> 
+        </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,35 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border: 0.2em solid white;
+    border-left-color: rgb(201, 201, 201);
+    font-style: italic;
+    padding-left: 2em;
+}
+
+blockquote footer {
+    text-align: end;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+th {
+    text-align: left;
+    background-color: rgb(148, 147, 147);
+    
+}
+
+td, th {
+    padding: 0.3em;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2;}

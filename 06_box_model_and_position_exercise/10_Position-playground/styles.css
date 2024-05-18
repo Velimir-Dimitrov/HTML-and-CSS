@@ -1,0 +1,46 @@
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div:nth-of-type(odd) {
+    background-image: linear-gradient(to right, rgb(87, 48, 228) , #00fffb);
+}
+
+div:nth-of-type(even){
+    background-image: linear-gradient(to right, #e4305a , hsl(36, 100%, 50%));
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+
+}
+
+.card {
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+i {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+

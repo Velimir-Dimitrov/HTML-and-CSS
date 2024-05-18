@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Flexbox</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 2em;
+        }
+
+        .gallery {
+            margin: 0 auto;
+            max-width: 50em;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1em;
+            
+        }
+
+        li {
+            border: 0.5em solid black;
+            display: flex;
+            align-items: center;
+            flex: 0 0 30%;
+            box-shadow: 0 0 1em 0 rgba(0,0,0,1),
+                        0 0 0.5em 0 rgba(0,0,0,0.5) inset
+
+        }
+        img {
+            padding: 1em;
+            margin: 2em 0;
+            display: block;
+            height: auto;
+            width: 100%;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="gallery">
+        <ul>
+            <li><img src="images/picture1.jpg"></li>
+            <li><img src="images/picture2.jpg"></li>
+            <li><img src="images/picture3.jpg"></li>
+            <li><img src="images/picture4.jpg"></li>
+            <li><img src="images/picture5.jpg"></li>
+            <li><img src="images/picture6.jpg"></li>
+            <li><img src="images/picture7.jpg"></li>
+            <li><img src="images/picture8.jpg"></li>
+            <li><img src="images/picture9.jpg"></li>
+        </ul>
+    </section>
+</body>
+</html>
